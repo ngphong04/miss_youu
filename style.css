@@ -1392,8 +1392,7 @@
     }
     
     /* Thêm chỉ dẫn cho người dùng */
-    .card-3d::after {
-        content: '👆 Nhấn để xem lời chúc';
+    .card-3d {
         position: absolute;
         bottom: -40px;
         left: 50%;
@@ -1406,7 +1405,7 @@
         pointer-events: none;
     }
     
-    .card-3d.active::after {
+    .card-3d.active {
         display: none;
     }
 }
